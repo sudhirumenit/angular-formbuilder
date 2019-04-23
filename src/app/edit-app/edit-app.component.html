@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-12">
       <div class="btn-cont">
-        <button (click)="initReport()" class="btn btn-primary pull-left">Response</button>
+        <!-- <button (click)="initReport()" class="btn btn-primary pull-left">Response</button> -->
         <!-- <button (click)="updateForm()" class="btn btn-primary pull-right">Update</button>
         <button routerLink="/application/{{model._id}}" class="btn btn-primary pull-right" style="margin-right:3px;">View
           <i class="fa fa-external-link"></i>
@@ -14,14 +14,14 @@
   <div class="row">
     <div class="col-4">
 
-      <div class="row">
+      <!-- <div class="row">
         <label class="col-8">Background Color</label>
         <input class="colorpick col-4" type="color" name="bgColor" [(ngModel)]="model.theme.bgColor">
       </div>
       <div class="row">
         <label class="col-8">Text Color</label>
         <input class="colorpick col-4" type="color" name="textColor" [(ngModel)]="model.theme.textColor">
-      </div>
+      </div> -->
 
       <h4 (click)="test()">Select Fields</h4>
       <p>Customize your form by drag and drop below fields to the form area.</p>
@@ -392,7 +392,7 @@
           </div>
         </div>
 
-        <p (click)="show=1" class="marginT60 pointer">Show developer data</p>
+        <p (click)="show=1" class="marginT60 pointer btn btn-primary">Show form data</p>
 
       </div>
     </form>

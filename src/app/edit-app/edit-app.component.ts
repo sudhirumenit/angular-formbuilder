@@ -163,8 +163,8 @@ export class EditAppComponent implements OnInit {
 
   modelFields: Array<field> = [];
   model: any = {
-    name: 'App name...',
-    description: 'App Description...',
+    name: 'Template name...',
+    description: 'Template Description...',
     theme: {
       bgColor: "ffffff",
       textColor: "555555",
